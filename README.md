@@ -35,5 +35,7 @@ up to `N=1000`. The results can be found in
 
 We have already counted the number of pop-stacked permutations of each length,
 grouped by number of ascending runs, up to `N=300`. The results can be found in
-[triangle.txt](https://github.com/SuprDewd/pop-stacked-perms/blob/master/triangle.txt).
+[triangle.txt](https://github.com/SuprDewd/pop-stacked-perms/blob/master/triangle.txt),
+where row `K` column `N` is the number of pop-stacked permutations of length
+`N` with `K` ascending runs.
 
