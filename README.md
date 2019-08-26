@@ -1,7 +1,7 @@
 # Enumerating the pop-stacked permutations
 
 A program to enumerate the pop-stacked permutations. Based on our paper
-[Counting pop-stacked permutations in polynomial time](TODO).
+[Counting pop-stacked permutations in polynomial time](https://arxiv.org/abs/1908.08910).
 
 ## Instructions
 
@@ -30,6 +30,7 @@ $ python ./combine.py
 We have already counted the number of pop-stacked permutations of each length
 up to `N=1000`. The results can be found in
 [sequence.txt](https://github.com/SuprDewd/pop-stacked-perms/blob/master/sequence.txt).
+This is sequence [A307030](https://oeis.org/A307030) on OEIS.
 
 ### Differential approximation
 These 1000 terms give insight into the generating function for the number of
@@ -48,6 +49,7 @@ grouped by number of ascending runs, up to `N=300`. The results can be found in
 [triangle.txt](https://github.com/SuprDewd/pop-stacked-perms/blob/master/triangle.txt),
 where row `K` column `N` is the number of pop-stacked permutations of length
 `N` with `K` ascending runs.
+This is triangle [A309993](https://oeis.org/A309993) on OEIS.
 
 ### Rational generating functions
 Each row, i.e. the number of pop-stacked permutations with a fixed number of
